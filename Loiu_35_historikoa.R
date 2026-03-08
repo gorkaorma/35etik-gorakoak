@@ -20,7 +20,7 @@ aemet_api_key("eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJncmtvcm1hZXR4ZWFAZ21haWwuY29tIiwi
 stations <- aemet_stations()
 id_station <- "1082"
 
-# Fechas de inicio y fin
+# Hasierako eta bukaerako datak
 start_all <- as.Date("1950-01-01")
 end_all   <- as.Date("2024-12-31")
 
